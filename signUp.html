@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inscription - Site d'apprentissage du français</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Français Pour Les Turcs</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index_fr.html">Accueil</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#lessons">Leçons</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="signup-section">
+        <h1>Créer un Compte</h1>
+        <p>Rejoignez-nous pour commencer votre apprentissage du français.</p>
+        <form class="signup-form">
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirmer le mot de passe</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit" class="submit-button">S'inscrire</button>
+        </form>
+        <p class="login-prompt">Déjà un compte? <a href="#login">Connectez-vous ici</a>.</p>
+    </section>
+
+</body>
+</html>

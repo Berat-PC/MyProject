@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fransızca Öğrenme Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Türkler İçin Fransızca</div>
+        
+        <div class="language-switcher">
+        
+            <a href="index_tr.html" class="language-button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg" alt="Türk Bayrağı" class="flag-icon">
+            </a> 
+            <a href="index_fr.html" class="language-button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg" alt="Fransız Bayrağı" class="flag-icon">
+            </a>
+        </div>
+    
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#about">Hakkında</a></li>
+                <li><a href="#lessons">Dersler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+                <li><a href="wordle.html">Wordle</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+
+
+<section class="hero-section" id="home">
+    <h1>Fransızca Öğrenin</h1>
+    <p>Romandiya bölgesinde yaşayan Türklere özel Fransızca dersleri.</p>
+    <a href="#lessons" class="cta-button">Derslere Başla</a>
+
+    <div class="auth-buttons">
+        <a href="#login" class="auth-button login-button">Kaydol</a>
+        <a href="#signup" class="auth-button signup-button">Giriş Yap</a>
+    </div>
+
+</section>
+
+<!-- Dersler Bölümü -->
+<section class="lessons-section" id="lessons">
+    <h2>Dersler</h2>
+    <div class="lessons-grid">
+        <div class="lesson-card">
+            <h3>Başlangıç Seviyesi A1-A2</h3>
+            <p>Fransızca'ya yeni başlayanlar için temel dersler.</p>
+        </div>
+        <div class="lesson-card">
+            <h3>Orta Seviye B1-B2</h3>
+            <p>Daha ileri seviyede dil bilgisi ve kelime hazinesi.</p>
+        </div>
+        <div class="lesson-card">
+            <h3>İleri Seviye C1-C2</h3>
+            <p>Akıcı Fransızca konuşmak için ileri seviye dersler.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Hakkında Bölümü -->
+<section class="about-section" id="about">
+    <h2>Hakkımızda</h2>
+    <p>Türkiye'den İsviçre'nin Romandiya bölgesine gelip bu bölgede hayatlarına devam edecek insanlara kısa sürede Fransızca dilini öğretme üzerine bu siteyi kurduk. </p>
+</section>
+
+<!-- İletişim Formu Bölümü -->
+<section class="contact-section" id="contact">
+    <h2>İletişim</h2>
+    <form class="contact-form">
+        <div class="form-group">
+            <label for="name">Adınız</label>
+            <input placeholder="John Doe" Doe" type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input placeholder="johndoe@example.com" type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Mesajınız</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Gönder</button>
+    </form>
+</section>
+
+</body>
+</html>
